@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yuxuan (Priscilla) Song's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+              <ul class="menu">
+                <li>
+                  <a href="#" onclick="showSection('profile')">Home</a>
+                </li>
+                <!--Sections dropdown -->
+                <li class="submenu">
+                  <a href="#">Portfolio</a>
+                  <ul class="dropdown">
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>          
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="left-section">
+                <div class="profile-pic">
+                    <img src="profile/17.svg" alt="Yuxuan (Priscilla) Song" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                </div>
+                <div class="contacts">
+                    <a href="https://www.linkedin.com/in/yuxuan-song-a573102b1" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="mailto:songyuxuan0420@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                    <a href="tel:+13148573876" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>Yuxuan (Priscilla) Song</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    Graduate student in Engineering Management with a foundation in safety engineering, EHS management, and marketing. Experienced in risk assessment, safety audits, data analytics and project coordination across engineering-focused environments. Strong skills in project planning and collaborative problem-solving.
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Expected Dec 2025</div>
+                        <div class="timeline-content">
+                            <h3>Master of Engineering</h3>
+                            <span class="school">Washington University in St. Louis</span>
+                            <p class="field">Engineering Management</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2024</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Engineering</h3>
+                            <span class="school">China University of Mining and Technology-Beijing</span>
+                            <p class="field">Safety Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container" id="experience-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Dec 2024-Mar 2025</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Student Consulting Team Member</h3>
+                            <span class="institution">Electra Beverages</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Conducted market research, collecting and analyzing 200+ survey responses on hydration preferences to inform Electra Beverages’ marketing strategy.</li>
+                                    <li>Identified and compiled a list of 20+ potential strategic partners and may support brand growth.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun-Aug 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Marketing Intern</h3>
+                            <span class="institution">E-Hualu Integrated Technology Co., Ltd</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Developed marketing strategies for intelligent transportation products and AI solutions for industrial applications.</li>
+                                    <li>Conducted market research to identify customer needs, delivering actionable insights to refine product positioning.</li>
+                                    <li>Created content for digital platforms, resulting in a 25% increase in online exposure.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Mar-May 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">EHS Management Assistant Intern</h3>
+                            <span class="institution">Beijing Xingyou Engineering Project Management Co., Ltd</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Conducted safety audits at two project sites under China National Petroleum Corporation (CNPC), identifying 20 potential hazards within the safety management systems and recommending corrective actions.</li>
+                                    <li>Facilitated workshops for employees and contractors, resulting in 15% improvement in safety compliance.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun-Aug 2023</div>
+                        <div class="timeline-content">
+                            <h3 class="position">UAV Research and Development Intern</h3>
+                            <span class="institution">United Aircraft Group</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Assisted in testing and performance evaluation of the TF150 VTOL Fixed-Wing UAV under the guidance of senior engineers, contributing to data collection and preliminary analysis.</li>
+                                    <li>Supported the testing of the Dual-Redundancy Actuator Servo System by documenting results and assisting in mechanical travel accuracy assessments.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <span>C language</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-file"></i>
+                    <span>Microsoft Office Suite</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-drafting-compass"></i>
+                    <span>AutoCAD</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
+                </div>
+            </div>
+        </section>
+          
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="carousel-wrapper">
+                <div class="projects-container" id="projects-container">
+                    <div class="project-card">
+                        <h3 class="project-title">WashU Covered Walkway Construction Plan</h3>
+                        <span class="project-duration">Jan 2025-Mar 2025</span>
+                        <p class="project-description">Led a team of four to develop a full project management plan for a $750,000 covered walkway over the Forest Park Parkway pedestrian bridge, enhancing safety for 2,000+ daily users.</p>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Developed a detailed WBS, risk register (15 risks, 5 opportunities), and a 5-month Gantt chart with 7 milestones, including a 42-day design phase and 63-day summer construction period.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Analysis and Classification of Containment Systems in Oil Terminal Tank Farms</h3>
+                        <span class="project-duration">Sep 2022-Apr 2023</span>
+                        <p class="project-description">Led a team of four to analyze and classify containment systems in oil terminal tank farms and long-distance pipelines, focusing on determining Safety Integrity Levels (SIL) through Layer of Protection Analysis (LOPA).</p>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Compiled a comprehensive 39-page final report for the project "Analysis and Classification of Containment Systems in Oil Terminal Tank Farms," which was presented to faculty and industry professionals for review.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Navigation Controls -->
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Project section
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
